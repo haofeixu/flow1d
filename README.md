@@ -46,7 +46,7 @@ All pretrained models can be downloaded from [google drive](https://drive.google
 
 
 
-You can run a trained model on a sequence of images and visualize the results:
+You can run a trained model on a sequence of images and visualize the results (as shown in [scripts/demo.sh](scripts/demo.sh)):
 
 ```
 CUDA_VISIBLE_DEVICES=0 python main.py \
@@ -55,8 +55,6 @@ CUDA_VISIBLE_DEVICES=0 python main.py \
 --inference_dir demo/dogs-jump \
 --output_path output/flow1d-dogs-jump
 ```
-
-More examples can be found in [scripts/demo.sh](scripts/demo.sh).
 
 
 
