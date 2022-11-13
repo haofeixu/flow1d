@@ -4,9 +4,9 @@ Official PyTorch implementation of paper:
 
 [**High-Resolution Optical Flow from 1D Attention and Correlation**](https://arxiv.org/abs/2104.13918), **ICCV 2021, Oral**
 
-Authors: [Haofei Xu](https://scholar.google.com/citations?user=NhUwq_8AAAAJ), [Jiaolong Yang](https://jlyang.org/), [Jianfei Cai](https://jianfei-cai.github.io/), [Juyong Zhang](http://staff.ustc.edu.cn/~juyong/), [Xin Tong](https://scholar.google.com/citations?user=P91a-UQAAAAJ&hl=en&oi=ao)
+Authors: [Haofei Xu](https://haofeixu.github.io/), [Jiaolong Yang](https://jlyang.org/), [Jianfei Cai](https://jianfei-cai.github.io/), [Juyong Zhang](http://staff.ustc.edu.cn/~juyong/), [Xin Tong](https://scholar.google.com/citations?user=P91a-UQAAAAJ&hl=en&oi=ao)
 
-
+**11/13/2022 Update: Check out our new work: [Unifying Flow, Stereo and Depth Estimation](https://haofeixu.github.io/unimatch/) and code: [unimatch](https://github.com/autonomousvision/unimatch) for estimating optical flow with our new GMFlow model. [9 pretrained GMFlow models](https://github.com/autonomousvision/unimatch/blob/master/MODEL_ZOO.md) with different speed-accuray trade-offs are also released. Check out our [Colab demo](https://colab.research.google.com/drive/1r5m-xVy3Kw60U-m5VB-aQ98oqqg_6cab?usp=sharing) to play with GMFlow in your browser!**
 
 We enabled **4K resolution** optical flow estimation by factorizing 2D optical flow with 1D attention and 1D correlation.
 
